@@ -1,27 +1,20 @@
 # Expired
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
+## Overview
 
-## Development server
+Instead of waiting to have an expired tuna or expired milk, why not track it, so the next time you go shopping, you’ll know what’s almost due. Expired?, don’t let it expire you.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## MVP
 
-## Code scaffolding
+- Users can create an account and decide which locations in the house need tracking. From Kitchen dispensers and fridge to bathroom cabinets and emergency kits.
+- User does not need to provide more information than the email and password.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tech Stack and Libraries:
 
-## Build
+- TypeScript
+- Angular JS
+- Firebase
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Contributor
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    Gissel (Gi) Diaz
