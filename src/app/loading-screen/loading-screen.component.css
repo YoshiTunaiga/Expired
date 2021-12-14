@@ -1,0 +1,15 @@
+.loading {
+  position: absolute;
+  top: 50px;
+  left: 400px;
+  align-content: center;
+  align-items: center;
+}
+
+.loading h2 {
+  position: absolute;
+  left: 68px;
+  font-size: 65px;
+  color: #203c68;
+  text-align: center;
+}

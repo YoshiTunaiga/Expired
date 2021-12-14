@@ -1,1 +1,56 @@
-<p>homepage works!</p>
+<!-------------- Toolbar ---------------->
+<div class="toolbar" role="banner">
+  <img
+    width="40"
+    alt="Angular Logo"
+    src="https://cdn2.iconfinder.com/data/icons/iconika-productivity-colored-vol-3/512/History_expired-512.png"
+  />
+  <span>Expired!</span>
+  <div class="search-div">
+    <input class="search-input" type="search" placeholder="Search">
+  </div>
+  <div>
+    <img width="40" src="https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/user-male-circle-blue-512.png" >
+  </div>
+  <!-- <span class="material-icons-outlined md-48">
+    account_circle
+    </span> -->
+</div>
+<!-- ----------------------------------- -->
+
+
+<!-- ---------- Add a new storage ---------------- -->
+<div class='new-storage'>
+  <h3 class="new-text" >New Storage</h3>
+  <div class="new-box" > 
+    <a><h1>+</h1></a>
+  </div>
+</div>
+
+<!-- ------------------------------------------------ -->
+
+
+<!-- ------------------ ABOUT to Expire Items ----------- -->
+<div class="about-container" >
+  <h3 class="about-text" >About to expire...</h3>
+  <div class="about-box">
+    <div class="about-items" *ngFor="let item of items">
+      <!-- <h3>{{item.name}}</h3> -->
+      <img width="70" src={{item.main_image}}/>
+      <h3>{{item.date}}</h3>
+    </div>
+  </div>
+</div>
+<!-- ------------------------------------------------ -->
+
+
+<!-- ------------------ ABOUT to Expire Items ----------- -->
+<div class="latest-container" >
+  <h3 class="latest-text">Latest</h3>
+  <div class="new-box">
+    <div *ngFor="let item of items" >
+      <h3>{{item.name}}</h3>
+    </div>
+  </div>
+</div>
+<!-- ------------------------------------------------ -->
