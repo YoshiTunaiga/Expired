@@ -131,3 +131,17 @@ h6 {
 .material-icons.md-48 {
   font-size: 48px;
 }
+
+button {
+  background-color: #203c68;
+  color: white;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.btn-home {
+  position: absolute;
+  top: 90px;
+  right: 200px;
+}

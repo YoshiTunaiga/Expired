@@ -18,6 +18,12 @@
 </div>
 <!-- ----------------------------------- -->
 
+<!-- ------------------- Home Button ----------------- -->
+<div class="btn-home" >
+  <button type="button" >My Home</button>
+</div>
+
+<!-- ----------------------------------- -->
 
 <!-- ---------- Add a new storage ---------------- -->
 <div class='new-storage'>
@@ -34,6 +40,7 @@
 <div class="about-container" >
   <h3 class="about-text" >About to expire...</h3>
   <div class="about-box">
+    <!-- This will render every item on the items array -->
     <div class="about-items" *ngFor="let item of items">
       <!-- <h3>{{item.name}}</h3> -->
       <img width="70" src={{item.main_image}}/>
@@ -48,6 +55,7 @@
 <div class="latest-container" >
   <h3 class="latest-text">Latest</h3>
   <div class="new-box">
+    <!-- This will render every item on the items array -->
     <div *ngFor="let item of items" >
       <h3>{{item.name}}</h3>
     </div>
